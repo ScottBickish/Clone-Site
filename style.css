@@ -7,6 +7,10 @@ header{
     font-family: 'Quicksand', sans-serif;
     
 }
+.center{
+    word-spacing: 5em;
+}
+
 
 .bg-header-color{
     background-color: #c0813a;
@@ -15,7 +19,7 @@ header{
 
 .p-size{
    
-    transform: translateY(75px) translateX(10px);
+    transform: translateY(65px) translateX(10px);
     
 }
 .grey{
@@ -23,25 +27,15 @@ header{
     
 }
 .a1{
-    color: yellowgreen;
+    color: darkblue;
 }
 .a1:hover{
     color: cyan;
+    transition: all ease .25s;
 }
 
-.review-lg{
-    height: 50vh;
-}
 
-.review{
-    height: 40vh;
-}
-.end1{
-    height: 30vh;
-}
-.end2{
-    height: 10vh;
-}
+
 @media only screen and (max-width: 768px){
  .move{   transform: translateY(0px) translateX(0px)
 }
