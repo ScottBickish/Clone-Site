@@ -12,16 +12,10 @@ header{
     background-color: #c0813a;
 }
 
-.view1{
-    height: 60vh;
-}
-.view2{
-    height: 70vh;
-}
+
 .p-size{
-    height: 50vh;
-    width: auto;
-    transform: translateY(45px) translateX(10px);
+   
+    transform: translateY(75px) translateX(10px);
     
 }
 .grey{
@@ -54,4 +48,7 @@ header{
 }
 @media only screen and (max-width: 576px){
     .gone{ display: none}
+}
+@media only screen and (max-width: 576px){
+    .order{order: 1}
 }
