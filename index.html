@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css' rel='stylesheet'
+        integrity='sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC' crossorigin='anonymous'>
+    <!-- FontAwesome 5.15.3 CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- (Optional) Use CSS or JS implementation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"
+        integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Clone Site checkpoint #1 </title>
+</head>
+
+<body>
+    <header class="container-fluid">
+        <div class="row">
+            <div class="col bg-header-color">
+                <h1><i class="fa-spin fab fa-pagelines"></i> ZAMMISH</h1>
+            </div>
+        </div>
+    </header>
+    <main class="container-fluid ">
+        <div class="row grass py-5  ">
+            <div class="col-md-5 mt-3 ">
+                <form class="row g-3 needs-validation" id="card" novalidate>
+                    <div class="col-md-4">
+                        <label for="validationCustom01" class="form-label">First name</label>
+                        <input type="text" class="form-control" id="validationCustom01" value="" required>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="validationCustom02" class="form-label">Last name</label>
+                        <input type="text" class="form-control" id="validationCustom02" value="" required>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="validationCustomUsername" class="form-label">Username</label>
+                        <div class="input-group has-validation">
+                            <span class="input-group-text" id="inputGroupPrepend">@</span>
+                            <input type="text" class="form-control" id="validationCustomUsername"
+                                aria-describedby="inputGroupPrepend" required>
+                            <div class="invalid-feedback">
+                                Please choose a username.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="validationCustom03" class="form-label">City</label>
+                        <input type="text" class="form-control" id="validationCustom03" required>
+                        <div class="invalid-feedback">
+                            Please provide a valid city.
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <label for="validationCustom04" class="form-label">State</label>
+                        <select class="form-select" id="validationCustom04" required>
+                            <option selected disabled value="">Choose...</option>
+                            <option>...</option>
+                        </select>
+                        <div class="invalid-feedback">
+                            Please select a valid state.
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <label for="validationCustom05" class="form-label">Zip</label>
+                        <input type="text" class="form-control" id="validationCustom05" required>
+                        <div class="invalid-feedback">
+                            Please provide a valid zip.
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                            <label class="form-check-label" for="invalidCheck">
+                                Agree to terms and conditions
+                            </label>
+                            <div class="invalid-feedback">
+                                You must agree before submitting.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <button class="btn btn-danger" type="submit">Submit form</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-7 gone text-center mt-5">
+                <h4>
+                    We are dedicated to you!
+                </h4>
+                <p class="mt-4">
+                    Zammish has been serving your community since 1992. quick, efficient and correct solutions is what
+                    we strive to achieve. Our employees have extensive plant and chemical knowledge. If you need a plant
+                    diagnosis please fill out our form
+                    and one of our field techs will be in touch!
+                </p>
+                <p>CUSTOMER SATISFACTION GUATANTEED </p>
+            </div>
+        </div>
+        <!-- <section class="container-fluid"> -->
+            <div class="row">
+                <div class="col-md-5 view1 bg-header-color text-center">
+                    <h5 class="mb-5">we offer chemical and organic solutions!</h5>
+                    <ul>
+                        <li>Plant and soil mineral analysis</li>
+                        <hr>
+                        <li>Insect damage for lawn and garden</li>
+                        <hr>
+                    <li>Disease control (viral, bacterial, and fungal)</li>
+                    <hr>
+                    <li>Plant identification</li>
+                    <hr>
+                    <li>Weed control</li>
+                </ul>
+            </div>
+            <div class="col-md-7 bg-header-color text-center ps-5">
+                <h5><i class="fas fa-check-square"></i>Common solutions for common issues<i
+                    class="fas fa-check-square"></i></h5>
+                    <div class="p-size move bg-secondary me-4">
+                        <p>Have broadleaf weeds? Use our active ingredients mecoprop-p, dicamba, ethl-hexl-ester or salt of
+                            2-methl-4 chlorophenoxyacydic acid or our clove oil for an organic solution.
+                        </p>
+                        <p>Have fungus in your yard or garden? try our proplconizole and thyophanate-methl or our copper ocanate for an organic
+                            solution.</p>
+                            <p>Have insects eating your fruits or veggies? try our permethrin spray or our neem oil if you want
+                                an organic solution.</p>
+                                <p>Click here to <a class="a1" href="">Learn More</a></p>
+                            </div>
+                            
+            </div>
+        </div>
+
+        <!-- </section> -->
+        <!-- <section class="container-fluid"> -->
+            <div class="row">
+                <div class="col-md-5 grey ">
+                    <img class="img-fluid"
+                    src="https://images.unsplash.com/photo-1620941929791-8a85d895394c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80"
+                    alt="">
+            </div>
+            <div class="col-md-7 grey pt-5 ps-3 text-center">
+                <h2><i class="fas fa-shield-alt"></i> We go above and beyond our customers expectations by offering you
+                    35% off any and all chemical/organic products for the first year. we also
+                    provide you with contactless payment methods.</h2>
+                    <button class="a1"><a href="#card">START NOW</a></button>
+                </div>
+            </div>
+            <!-- </section> -->
+            <!-- <aside class="container-fluid"> -->
+                <div class="row bg-success text-center justify-content-around view2 pb-3">
+                    <h3>Here's what our customers have to say</h3>
+                    <div class="col-md-3 border border-2 border-dark review mt-5">
+                        <p> <strong><em> Jennifer</em></strong> <i class="far fa-star"></i><i class="far fa-star"></i><i
+                            class="far fa-star"></i><i class="far fa-star"></i>
+                        </p> "huh? how did you say that chemical again? it does what?" "i'm blown away by the service i was
+                provided by Zammish. i will be using them again!!"
+            </div>
+            
+            <div class="col-md-3 border border-2 border-dark review-lg mt-4">
+                <p><strong><em> Michaela</em></strong> <i class="far fa-star"></i><i class="far fa-star"></i><i
+                        class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+                    </p>"I was very impressed with the knowledge Zammish had. i had juglone bacteria affeting my tomato
+                    plants that came from my neighbours black walnut
+                tree and had no idea. I'm glad i called Zammish"
+            </div>
+            <div class="col-md-3 border border-2 border-dark review mt-5">
+                <p><strong><em>Kody <i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+                </em></strong></p> "i don't know what
+                any of that means but i trust you" "Glad i did now i dont have chinch bugs in my yard anymore!!"
+            </div>
+        </div>
+    </main>
+        <!-- </aside> -->
+        <footer class="container-fluid">
+            <div class="row end1 bg-header-color text-center">
+                <h3>Feel free to follow us on these platforms and check for promo codes!</h3>
+                <div class="col"><h1><i class="fab fa-facebook"></i> <i class="fab fa-twitter-square"></i> <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-youtube"></i></h1></div>
+                </div>
+                <div class="row end2 bg-secondary">
+            <div class="col"></div>
+        </div>
+
+    </footer>
+    
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+.grass{
+    background-image: url(https://images.unsplash.com/photo-1533460004989-cef01064af7e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80);
+    background-size: cover;
+    background-position: center;
+}
+header{
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+.bg-header-color{
+    background-color: #c0813a;
+}
+.view{
+    height: 55vh;
+}
+.view1{
+    height: 60vh;
+}
+.view2{
+    height: 70vh;
+}
+.p-size{
+    height: 50vh;
+    width: auto;
+    transform: translateY(45px) translateX(10px);
+    
+}
+.grey{
+    background-color: #b4abab;
+    
+}
+.a1{
+    color: yellowgreen;
+}
+.a1:hover{
+    color: cyan;
+}
+
+.review-lg{
+    height: 50vh;
+}
+
+.review{
+    height: 40vh;
+}
+.end1{
+    height: 30vh;
+}
+.end2{
+    height: 10vh;
+}
+@media only screen and (max-width: 768px){
+ .move{   transform: translateY(0px) translateX(0px)
+}
+}
+@media only screen and (max-width: 576px){
+    .gone{ display: none}
+}
